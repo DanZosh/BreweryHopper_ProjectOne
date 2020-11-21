@@ -33,8 +33,12 @@ h1 {
 
 h4 {
   padding: 5px;
-  /* font-family: 'Berkshire Swash', cursive; */
+  font-family: 'Berkshire Swash', cursive;
   color: var(--breweryHopperBrown)
+}
+
+.resultsHeader{
+  font-size: 1.75em;
 }
 
 .top {
@@ -88,6 +92,12 @@ h4 {
     background-color: var(--breweryHopperBrown);
     color: white;
     margin-left: 3px;
+}
+
+.searchButton:hover {
+  /* background-color: rgb(8, 130, 151); */
+  /* background-color: var(--breweryHopperBrown); */
+  /* color: white; */
 }
 
  .collection-item {
