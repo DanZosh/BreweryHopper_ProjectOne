@@ -1,0 +1,88 @@
+/* header {
+  background-color: rgb(94, 23, 23);
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-content: stretch; 
+ } */
+
+.top{
+    margin-bottom: 50px;
+    height: auto;
+    background-color: rgb(94, 23, 23);
+    padding: 40px;
+  }
+
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height:100%
+  }
+
+  body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+    padding: 8px;
+  }
+
+  .nav-wrapper {
+    padding: 10px;
+  }
+
+  #breweryImg {
+    display: inline;
+  }
+
+  .nav li {
+    display: inline;
+    margin: 15px;
+    padding: 15px;
+    font-size: 15px;
+    width: auto;
+  }
+
+  h1 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 70px;
+    padding-left: 35px;
+    display: inline;
+  }
+
+  .searchButton {
+    background-color: rgb(8, 130, 151);
+    color: white;
+  }
+
+  .collection-item:hover {
+    background-color: rgb(8, 130, 151);
+    color: white;
+  }
+
+  #breweryInfo {
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .card-image {
+    width: 60%;
+    height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+
+  }
+
+  #cardHeader h3 {
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  

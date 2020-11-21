@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BreweryHopperTEST</title>
+    <link rel="icon" href="https://www.freefavicon.com/freefavicons/food/beer-stein-152-202218.png"/>
+<!-- THIS is the CSS Reset Link -->
+    <link rel="stylesheet" href="./Assets/reset.css" />
+
+<!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+
+<!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+<!-- THIS is the JQuery link -->
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brewery Hopper</title>
+
+  <!-- CSS Reset Link -->
+  <link rel="stylesheet" href="./Assets/reset.css" />
+  <!-- Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Materialize CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <!-- Link to Google Font Berkshire Swash-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+  <!-- CSS stylesheet -->
+  <link rel="stylesheet" href="./Assets/style.css" />
+
+  <!-- HERE MAPS API CODE LIBRARIES START-->
+  <script src="https://js.api.here.com/v3/3.1/mapsjs-core.js"
+  type="text/javascript" charset="utf-8"></script>
+<script src="https://js.api.here.com/v3/3.1/mapsjs-service.js"
+  type="text/javascript" charset="utf-8"></script>
+  <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+
+  <!-- HERE MAPS API CODE LIBRARIES END-->
+</head>
+
+<body>
+
+<!-- Main navbar -->
+<header class="header">
+
+  <img id="breweryImg" class="hide-on-med-and-down" src="./Assets/Images/brewery-stock-img.jpg" alt="beer taps" height="200px" width="200px">
+  <h1>Brewery Hopper</h1>
+  <img id="breweryImg" class="hide-on-med-and-down" src="./Assets/Images/brewery-stock-img.jpg" alt="beer taps" height="200px" width="200px">
+
+</header>
+
+<main>
+
+  <div class="row">
+
+    <div class="col s12  m12 l3">
+      <!-- secondary Navbar (Title for User Input fields) -->
+
+        <div class="nav-wrapper">
+          <h4 class = "left-align">Search by City:</h4>
+
+          <div class="searchField">
+            <input type="text" class="textField col" id="cityName" name="cityName">
+            <button type="button" class="searchButton btn-small" class = "buttonSize">&#x1F50E;</button>
+            <div class="col s12"></div>
+          </div>
+
+          <div class = "breweryResults">
+            <h4 class = "left-align resultsHeader">Results</h4>
+            <div id="resultsList" class="collection"></div>
+          </div>
+        </div>
+    </div>
+
+    <div class="col s12 m12 l5">
+      <div class="card">
+        <h2  id="breweryInfo" class="header">Brewery Info</h2>
+        <div class="card vertical">
+          <div class="card-image">
+          </div>
+          <br>
+          <div class="card-stacked">
+            <div class="card-content mainCard"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col s12 m12 l4">
+      <div class="card">
+        <div style="width: 100%; height: 600px" id="mapContainer"></div>
+      </div>
+    </div> 
+    
+  </div>
+
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+  <!-- Moment.js-->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+
+  <!-- JavaScript-->
+  <script type="text/javascript" src="./Assets/script.js"></script>
+
+</main>
+
+</body>
+
+</html>
